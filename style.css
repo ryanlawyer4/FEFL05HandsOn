@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    color: black;
+    background-color: yellowgreen;
+    font-size: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .pictures img {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    padding: 10px;
+  }
